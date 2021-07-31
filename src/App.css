@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.App{
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.search_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_bar{
+    width: 30%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 18px;
+    border: none;
+    text-transform: capitalize;
+
+}
+.search_bar:hover{
+    background-color: #cbf2ee;
+}
+.search_btn{
+    padding: 11px 28px;
+    margin-top: 25px;
+    border-radius: 6px;
+    background-color: rgb(170,1,1);
+    text-transform: uppercase;
+    color: azure;
+    border: none;
+    font-weight: bold;
+}
+.search_btn:hover{
+    background-color: rgb(220,1,1);
+    color: #000;
+}
+.recipes{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+
+@media screen and (max-width: 500px) {
+    
+        .search_btn{
+            padding: 11px 28px;
+            margin-top: 25px;
+            border-radius: 6px;
+            background-color: blue;
+            text-transform: uppercase;
+            color: azure;
+            border: none;
+            font-weight: bold;
+        }
+        .search_btn:hover{
+            background-color: #4290f5;
+        }
+        .search_bar{
+            width: 60%;
+        }
+  }

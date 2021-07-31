@@ -1,0 +1,28 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+}
+.images{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin: 3vh;
+}
+.text{
+    margin: 2vh 2vh 1vh 2vh;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.heading{
+      color: blue;
+      font-weight: bold;
+}
